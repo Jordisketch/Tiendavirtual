@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "FrontEndStore_inicio",
+			"path": "."
+		},
+		{
+			"name": "img",
+			"path": "..\\..\\FrontEndStore_inicio\\img"
+		},
+		{
+			"path": "..\\Proyecto2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "FrontEndStore_inicio"
+	}
+}

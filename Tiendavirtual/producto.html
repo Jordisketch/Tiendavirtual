@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/paginaPrincipal.css">
+    <title>Tienda Virtual</title>
+</head>
+
+<body>
+    <header class="titulo">
+        <a href="paginaPrincipal.html">
+            <img class="titulo__logo" src="/imagenes/logo.png" alt="Logo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlaces navegacion__enlaces--activo" href="paginaPrincipal.html">Tienda</a>
+        <a class="navegacion__enlaces" href="informacion.html">Información</a>
+    </nav>
+
+    <main>
+        <h1>React JS</h1>
+        <div class="camisa">
+           
+            <img  class="camisa__imagen" src="/imagenes/3.jpg" alt="Camisa">
+
+            <div class="camisa__informacion">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum molestias tenetur dignissimos porro. Excepturi odit unde facilis, esse earum libero tempore, placeat, blanditiis eius minima perferendis explicabo ipsa expedita nobis.
+                    <form class="formulario">
+                        <select class="formulario__campo">
+                            <option disabled selected>Elegir Talla</option>
+                            <option>Pequeña</option>
+                            <option>Mediana</option>
+                            <option>Grande</option>
+                        </select>
+                        <input  class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                        <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                    </form>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__parrafo">Tienda Virutal. Elaborado por: Jordi Hidalgo</p>
+    </footer>
+</body>
+
+</html>
